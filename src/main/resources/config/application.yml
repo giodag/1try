@@ -77,6 +77,9 @@ spring:
             enabled: false
     thymeleaf:
         mode: HTML
+    main:
+      web-application-type: none
+    
 
 server:
     servlet:
