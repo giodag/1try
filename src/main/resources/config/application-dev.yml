@@ -24,6 +24,7 @@ spring:
         active: dev
         include:
             - swagger
+            - no-liquibase
             # Uncomment to activate TLS for the dev profile
             #- tls
     devtools:
@@ -38,7 +39,7 @@ spring:
         type: com.zaxxer.hikari.HikariDataSource
         url: jdbc:mysql://localhost:3306/1try?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
         username: root
-        password: admin
+        password: danimetu
         hikari:
             auto-commit: false
             data-source-properties:
